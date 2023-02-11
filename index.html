@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<!--
+ @license
+ Copyright 2019 Google LLC. All Rights Reserved.
+ SPDX-License-Identifier: Apache-2.0
+-->
 <html lang="en">
 
 <head>
@@ -17,6 +22,9 @@
     <link rel="stylesheet" href="./css/icons.css">
     <link rel="stylesheet" href="./css/style.css">
 
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    
+    <script type="module" src="./map.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script defer src="./script.js"></script>
 </head>
@@ -211,15 +219,42 @@
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
         </section>
-        <section class="gallery"></section>
-        <section class="contact"></section>
+        <section class="photo-gallery _container">
+            <hr>
+            <h2>GALLERY</h2>
+            <div class="gallery">
+                <figure class="gallery__item gallery__item-1">
+                    <img src="./assets/gallery-img1.png">
+                </figure>
+                <figure class="gallery__item gallery__item-2">
+                    <img src="./assets/gallery-img2.png">
+                </figure>
+                <figure class="gallery__item gallery__item-3">
+                    <img src="./assets/gallery-img3.png">
+                </figure>
+                <figure class="gallery__item gallery__item-4">
+                    <img src="./assets/gallery-img4.png">
+                </figure>
+                <figure class="gallery__item gallery__item-5">
+                    <img src="./assets/gallery-img5.png">
+                </figure>
+            </div>
+            <button>see more</button>
+        </section>
+        <section class="contact">
+            <div id="map"></div>
+        </section>
     </main>
     <footer class="footer"></footer>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2G96Z7KUJ6EPwQywiEvsGsCt1Tmzjojg&callback=initMap&v=weekly"
+        defer></script>
 </body>
 
 </html>
