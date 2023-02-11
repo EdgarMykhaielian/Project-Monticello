@@ -1,0 +1,28 @@
+@mixin h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    // text-align: center;
+    color: #2C4058;
+    text-transform: uppercase;
+}
+
+@mixin btn-more {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 16px 41px;
+    border: 1px solid #2C4058;
+    &:hover{
+        background-color: #2C4058;
+        color: white;
+        border-color: #2C4058;
+    }
+}
+
