@@ -1,34 +1,36 @@
-.fa-brands {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18.4px;
-    color: white;
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    border-radius: 50%;
+header, .projects, footer {
+    .fa-brands {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18.4px;
+        color: white;
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        border-radius: 50%;
 
-    &:hover {
-        // border-color: #55B7FF;
-        // color: #55B7FF;
-        background-color: white;
-        color: #7E5AFF;
+        &:hover {
+            // border-color: #55B7FF;
+            // color: #55B7FF;
+            background-color: white;
+            color: #7E5AFF;
+        }
     }
-}
 
-.fa-facebook-f {
-    padding: 11px 15px;
-}
+    .fa-facebook-f {
+        padding: 11px 15px;
+    }
 
-.fa-twitter {
-    padding: 11px 12px;
-}
+    .fa-twitter {
+        padding: 11px 12px;
+    }
 
-.fa-instagram {
-    padding: 11px 13px;
-}
+    .fa-instagram {
+        padding: 11px 13px;
+    }
 
-.fa-location-dot {
-    font-size: 15px;
-    line-height: 17px;
-    letter-spacing: 0.3em;
-    color: #2C4058;
+    .fa-location-dot {
+        font-size: 15px;
+        line-height: 17px;
+        letter-spacing: 0.3em;
+        color: #2C4058;
+    }
 }

@@ -9,7 +9,7 @@ function initMap() {
     const newYork = { lat: 40.68924574168396, lng: -73.90484872122606 };
     // The map, centered at New York
     const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 14,
+      zoom: 13,
       center: newYork,
       styles: [{
         stylers: [{
