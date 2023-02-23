@@ -1,3 +1,4 @@
+// SWIPER SLIDERS
 const swiper = new Swiper(".mySwiper", {
     direction: "vertical",
     keyboard: {
@@ -30,4 +31,10 @@ const swiper2 = new Swiper(".mySwiper2", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
+});
+// GALLERY LIGHTBOX
+baguetteBox.run('.gallery', {
+    captions: false,
+    animation: 'fadeIn',
+    noScrollbars: true
 });

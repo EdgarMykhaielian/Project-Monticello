@@ -12,6 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monticello</title>
 
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -21,17 +22,19 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/icons.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.css">
 
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 
     <script type="module" src="./map.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
     <script defer src="./script.js"></script>
 </head>
 
 <body>
     <header class="header">
-        <div class="header__nav">
+        <div class="header__nav _container">
             <div class="header__logo">
                 <a href="/"><img src="./assets/Logo.png" alt="logo"></a>
             </div>
@@ -50,30 +53,41 @@
         <div class="hero">
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <h1>SIMPLE &#38; MODERN</h1>
-                        <h6>WE MAKE THE WORLD BEAUTIFUL EVERYDAY</h6>
-                    </div>
-                    <div class="swiper-slide">
-                        <h1>Lorem, ipsum.</h1>
-                        <h6>Lorem ipsum dolor sit amet.</h6>
-                    </div>
-                    <div class="swiper-slide">
-                        <h1>Lorem</h1>
-                        <h6>Lorem ipsum dolor sit amet consectetur adipisicing.</h6>
-                    </div>
-                    <div class="swiper-slide">
-                        <h1>SIMPLE &#38; MODERN</h1>
-                        <h6>WE MAKE THE WORLD BEAUTIFUL EVERYDAY</h6>
-                    </div>
-                    <div class="swiper-slide">
-                        <h1>Lorem</h1>
-                        <h6>Lorem ipsum dolor sit amet consectetur adipisicing.</h6>
-                    </div>
+                    <ul class="swiper-slide">
+                        <li>
+                            <h1>SIMPLE &#38; MODERN</h1>
+                            <h6>WE MAKE THE WORLD BEAUTIFUL EVERYDAY</h6>
+                        </li>
+                    </ul>
+                    <ul class="swiper-slide">
+                        <li>
+                            <h1>Lorem, ipsum.</h1>
+                            <h6>Lorem ipsum dolor sit amet.</h6>
+                        </li>
+                    </ul>
+                    <ul class="swiper-slide">
+                        <li>
+                            <h1>Lorem</h1>
+                            <h6>Lorem ipsum dolor sit amet consectetur adipisicing.</h6>
+                        </li>
+                    </ul>
+                    <ul class="swiper-slide">
+                        <li>
+                            <h1>SIMPLE &#38; MODERN</h1>
+                            <h6>WE MAKE THE WORLD BEAUTIFUL EVERYDAY</h6>
+                        </li>
+                    </ul>
+                    <ul class="swiper-slide">
+                        <li>
+                            <h1>Lorem</h1>
+                            <h6>Lorem ipsum dolor sit amet consectetur adipisicing.</h6>
+                        </li>
+                    </ul>
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
-            <a href="/" class="fa-solid fa-chevron-down hero__arrow"></a>
+            <!-- <a href="/" class="fa-solid fa-chevron-down hero__arrow"></a> -->
+            <a href="/" class="hero__arrow"></a>
         </div>
     </header>
     <main class="main">
@@ -230,19 +244,29 @@
             <h2>GALLERY</h2>
             <div class="gallery">
                 <figure class="gallery__item gallery__item-1">
-                    <img src="./assets/gallery-img1.png">
+                    <a href="./assets/fullscreen-img1.jpg">
+                        <img src="./assets/gallery-img1.png" alt="">
+                    </a>
                 </figure>
                 <figure class="gallery__item gallery__item-2">
-                    <img src="./assets/gallery-img2.png">
+                    <a href="./assets/fullscreen-img2.jpg">
+                        <img src="./assets/gallery-img2.png" alt="">
+                    </a>
                 </figure>
                 <figure class="gallery__item gallery__item-3">
-                    <img src="./assets/gallery-img3.png">
+                    <a href="./assets/fullscreen-img3.jpg">
+                        <img src="./assets/gallery-img3.png" alt="">
+                    </a>
                 </figure>
                 <figure class="gallery__item gallery__item-4">
-                    <img src="./assets/gallery-img4.png">
+                    <a href="./assets/fullscreen-img4.jpg">
+                        <img src="./assets/gallery-img4.png" alt="">
+                    </a>
                 </figure>
                 <figure class="gallery__item gallery__item-5">
-                    <img src="./assets/gallery-img5.png">
+                    <a href="./assets/fullscreen-img5.jpg">
+                        <img src="./assets/gallery-img5.png" alt="">
+                    </a>
                 </figure>
             </div>
             <button>see more</button>
