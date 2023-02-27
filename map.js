@@ -26,7 +26,7 @@ function initMap() {
     // custom marker
     let markerOptions = {
         position: new google.maps.LatLng(40.68924574168396, -73.90484872122606),
-        icon: './assets/pin.png',
+        icon: 'pin.png',
         animation:google.maps.Animation.BOUNCE,
     }
     let marker = new google.maps.Marker(markerOptions);
