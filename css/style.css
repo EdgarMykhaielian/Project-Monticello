@@ -410,7 +410,6 @@ header .fa-location-dot, .projects .fa-location-dot, footer .fa-location-dot {
       -ms-flex-align: center;
           align-items: center;
   padding-top: 53px;
-  left: 0%;
   width: 100vw;
   z-index: 100;
 }
